@@ -1,0 +1,1006 @@
+{
+  "dishes": [
+    {
+      "id": 1,
+      "name": "Butter Chicken",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.5,
+      "reviews": 1500,
+      "price": 50,
+      "description": "Rich and creamy butter chicken with a blend of spices.",
+      "categories": ["Chicken Dishes"]
+    },
+    {
+      "id": 2,
+      "name": "Chicken Biryani",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 2000,
+      "price": 45,
+      "description": "Aromatic chicken biryani with tender chicken pieces.",
+      "categories": ["Biryani", "Chicken Dishes"]
+    },
+    {
+      "id": 3,
+      "name": "Paneer Tikka",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.6,
+      "reviews": 1800,
+      "price": 40,
+      "description": "Grilled paneer cubes marinated in spices.",
+      "categories": ["Paneer Dishes", "Tandoori & Kababs"]
+    },
+    {
+      "id": 4,
+      "name": "Lamb Rogan Josh",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.8,
+      "reviews": 1700,
+      "price": 55,
+      "description": "Tender lamb cooked in a rich, flavorful sauce.",
+      "categories": ["Non-Vegetarian Curries"]
+    },
+    {
+      "id": 5,
+      "name": "Vegetable Korma",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.4,
+      "reviews": 1600,
+      "price": 35,
+      "description": "Mixed vegetables in a creamy, spiced sauce.",
+      "categories": ["Vegetarian Curries"]
+    },
+    {
+      "id": 6,
+      "name": "Tandoori Chicken",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.9,
+      "reviews": 2100,
+      "price": 50,
+      "description": "Spicy grilled chicken marinated in yogurt and spices.",
+      "categories": ["Tandoori & Kababs", "Chicken Dishes"]
+    },
+    {
+      "id": 7,
+      "name": "Chana Masala",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.3,
+      "reviews": 1400,
+      "price": 30,
+      "description": "Chickpeas cooked in a spicy, tangy sauce.",
+      "categories": ["Vegetarian Curries"]
+    },
+    {
+      "id": 8,
+      "name": "Fish Curry",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1900,
+      "price": 60,
+      "description": "Fresh fish cooked in a spicy coconut curry.",
+      "categories": ["Non-Vegetarian Curries"]
+    },
+    {
+      "id": 9,
+      "name": "Dal Makhani",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.5,
+      "reviews": 1600,
+      "price": 40,
+      "description": "Creamy lentils cooked with butter and spices.",
+      "categories": ["Vegetarian Curries"]
+    },
+    {
+      "id": 10,
+      "name": "Aloo Gobi",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.2,
+      "reviews": 1300,
+      "price": 35,
+      "description": "Potatoes and cauliflower cooked with spices.",
+      "categories": ["Vegetarian Curries"]
+    },
+    {
+      "id": 11,
+      "name": "Palak Paneer",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.6,
+      "reviews": 1800,
+      "price": 45,
+      "description": "Paneer cubes in a creamy spinach sauce.",
+      "categories": ["Paneer Dishes"]
+    },
+    {
+      "id": 12,
+      "name": "Mutton Biryani",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.8,
+      "reviews": 2200,
+      "price": 65,
+      "description": "Flavorful biryani with tender mutton pieces.",
+      "categories": ["Biryani", "Non-Vegetarian Curries"]
+    },
+    {
+      "id": 13,
+      "name": "Prawn Masala",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 2000,
+      "price": 70,
+      "description": "Juicy prawns cooked in a spicy masala sauce.",
+      "categories": ["Non-Vegetarian Curries"]
+    },
+    {
+      "id": 14,
+      "name": "Rajma Chawal",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.4,
+      "reviews": 1500,
+      "price": 30,
+      "description": "Red kidney beans served with steamed rice.",
+      "categories": ["Vegetarian Curries", "Rice & Pulav"]
+    },
+    {
+      "id": 15,
+      "name": "Kadai Paneer",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.6,
+      "reviews": 1700,
+      "price": 50,
+      "description": "Paneer cooked with bell peppers and spices.",
+      "categories": ["Paneer Dishes"]
+    },
+    {
+      "id": 16,
+      "name": "Egg Curry",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.3,
+      "reviews": 1400,
+      "price": 35,
+      "description": "Boiled eggs in a spicy tomato-based curry.",
+      "categories": ["Non-Vegetarian Curries"]
+    },
+    {
+      "id": 17,
+      "name": "Mushroom Masala",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.5,
+      "reviews": 1600,
+      "price": 40,
+      "description": "Mushrooms cooked in a rich, spicy sauce.",
+      "categories": ["Vegetarian Curries"]
+    },
+    {
+      "id": 18,
+      "name": "Bhindi Masala",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.2,
+      "reviews": 1300,
+      "price": 30,
+      "description": "Okra cooked with onions and spices.",
+      "categories": ["Vegetarian Curries"]
+    },
+    {
+      "id": 19,
+      "name": "Chicken Tikka Masala",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.9,
+      "reviews": 2500,
+      "price": 55,
+      "description": "Grilled chicken in a creamy, spiced sauce.",
+      "categories": ["Chicken Dishes"]
+    },
+    {
+      "id": 20,
+      "name": "Aloo Paratha",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.3,
+      "reviews": 1400,
+      "price": 25,
+      "description": "Stuffed flatbread with spiced potato filling.",
+      "categories": ["Breads"]
+    },
+    {
+      "id": 21,
+      "name": "Veg Thali",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.5,
+      "reviews": 1600,
+      "price": 80,
+      "description": "A complete meal with various vegetarian dishes.",
+      "categories": ["Thali", "Vegetarian Curries"]
+    },
+    {
+      "id": 22,
+      "name": "Egg Thali",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.6,
+      "reviews": 1700,
+      "price": 90,
+      "description": "A complete meal with egg curry and other dishes.",
+      "categories": ["Thali", "Non-Vegetarian Curries"]
+    },
+    {
+      "id": 23,
+      "name": "Chicken Thali",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 120,
+      "description": "A complete meal with chicken curry and other dishes.",
+      "categories": ["Thali", "Chicken Dishes"]
+    },
+    {
+      "id": 24,
+      "name": "Tea",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 30,
+      "description": "A refreshing cup of tea.",
+      "categories": ["Beverages"]
+    },
+    {
+      "id": 25,
+      "name": "Coffee",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 35,
+      "description": "A hot cup of coffee.",
+      "categories": ["Beverages"]
+    },
+    {
+      "id": 26,
+      "name": "Chai",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 35,
+      "description": "A traditional Indian tea.",
+      "categories": ["Beverages"]
+    },
+    {
+      "id": 27,
+      "name": "Rasmalai (2pc)",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 60,
+      "description": "A sweet and creamy dessert.",
+      "categories": ["Desserts"]
+    },
+    {
+      "id": 28,
+      "name": "Tawa Roti",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 7,
+      "description": "Soft and fluffy roti cooked on a tawa.",
+      "categories": ["Breads"]
+    },
+    {
+      "id": 29,
+      "name": "Tandoori Roti",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 10,
+      "description": "Roti cooked in a tandoor.",
+      "categories": ["Breads"]
+    },
+    {
+      "id": 30,
+      "name": "Tandoori Roti Butter",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 12,
+      "description": "Buttery tandoori roti.",
+      "categories": ["Breads"]
+    },
+    {
+      "id": 31,
+      "name": "Plain Naan",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 25,
+      "description": "Soft and fluffy plain naan.",
+      "categories": ["Breads"]
+    },
+    {
+      "id": 32,
+      "name": "Butter Naan",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 35,
+      "description": "Buttery and soft naan.",
+      "categories": ["Breads"]
+    },
+    {
+      "id": 33,
+      "name": "Garlic Naan",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 45,
+      "description": "Naan with a hint of garlic.",
+      "categories": ["Breads"]
+    },
+    {
+      "id": 34,
+      "name": "Aloo Naan",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 50,
+      "description": "Naan stuffed with spiced potatoes.",
+      "categories": ["Breads"]
+    },
+    {
+      "id": 35,
+      "name": "Chicken Keema Naan",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 88,
+      "description": "Naan stuffed with chicken keema.",
+      "categories": ["Breads"]
+    },
+    {
+      "id": 36,
+      "name": "Paneer Naan",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 80,
+      "description": "Naan stuffed with paneer.",
+      "categories": ["Breads"]
+    },
+    {
+      "id": 37,
+      "name": "Mix Naan",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 60,
+      "description": "Naan with a mix of fillings.",
+      "categories": ["Breads"]
+    },
+    {
+      "id": 38,
+      "name": "Laccha Paratha",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 25,
+      "description": "Layered and flaky paratha.",
+      "categories": ["Breads"]
+    },
+    {
+      "id": 39,
+      "name": "Plain Rice",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 70,
+      "description": "Steamed plain rice.",
+      "categories": ["Rice & Pulav"]
+    },
+    {
+      "id": 40,
+      "name": "Jeera Rice",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 80,
+      "description": "Rice flavored with cumin seeds.",
+      "categories": ["Rice & Pulav"]
+    },
+    {
+      "id": 41,
+      "name": "Mutter Pulav",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 85,
+      "description": "Rice cooked with peas and spices.",
+      "categories": ["Rice & Pulav"]
+    },
+    {
+      "id": 42,
+      "name": "Paneer Pulav",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 90,
+      "description": "Rice cooked with paneer and spices.",
+      "categories": ["Rice & Pulav"]
+    },
+    {
+      "id": 43,
+      "name": "Veg Pulav",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 90,
+      "description": "Rice cooked with mixed vegetables and spices.",
+      "categories": ["Rice & Pulav"]
+    },
+    {
+      "id": 44,
+      "name": "Veg Sandwich",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 70,
+      "description": "Sandwich with mixed vegetables.",
+      "categories": ["Sandwiches"]
+    },
+    {
+      "id": 45,
+      "name": "Paneer Corn Sandwich",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 80,
+      "description": "Sandwich with paneer and corn.",
+      "categories": ["Sandwiches"]
+    },
+    {
+      "id": 46,
+      "name": "Paneer Tikka Masala",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 150,
+      "description": "Paneer cooked in a creamy, spiced sauce.",
+      "categories": ["Paneer Dishes"]
+    },
+    {
+      "id": 47,
+      "name": "Kadai Paneer",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 120,
+      "description": "Paneer cooked with bell peppers and spices.",
+      "categories": ["Paneer Dishes"]
+    },
+    {
+      "id": 48,
+      "name": "Shahi Paneer",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 120,
+      "description": "Paneer cooked in a rich, creamy sauce.",
+      "categories": ["Paneer Dishes"]
+    },
+    {
+      "id": 49,
+      "name": "Paneer Do Pyaza",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 130,
+      "description": "Paneer cooked with onions and spices.",
+      "categories": ["Paneer Dishes"]
+    },
+    {
+      "id": 50,
+      "name": "Mutter Paneer",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 120,
+      "description": "Paneer cooked with peas and spices.",
+      "categories": ["Paneer Dishes"]
+    },
+    {
+      "id": 51,
+      "name": "Paneer Butter Masala",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 130,
+      "description": "Paneer cooked in a buttery, creamy sauce.",
+      "categories": ["Paneer Dishes"]
+    },
+    {
+      "id": 52,
+      "name": "Handi Paneer",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 120,
+      "description": "Paneer cooked in a handi with spices.",
+      "categories": ["Paneer Dishes"]
+    },
+    {
+      "id": 53,
+      "name": "Matar Mushroom",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 130,
+      "description": "Mushrooms and peas cooked in a spicy sauce.",
+      "categories": ["Vegetarian Curries"]
+    },
+    {
+      "id": 54,
+      "name": "Chana Masala",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 100,
+      "description": "Chickpeas cooked in a spicy, tangy sauce.",
+      "categories": ["Vegetarian Curries"]
+    },
+    {
+      "id": 55,
+      "name": "Dal Makhani",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 100,
+      "description": "Creamy lentils cooked with butter and spices.",
+      "categories": ["Vegetarian Curries"]
+    },
+    {
+      "id": 56,
+      "name": "Arhar Dal Dry",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 70,
+      "description": "Dry arhar dal cooked with spices.",
+      "categories": ["Vegetarian Curries"]
+    },
+    {
+      "id": 57,
+      "name": "Dal Tadka Spicy",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 80,
+      "description": "Spicy dal tempered with spices.",
+      "categories": ["Vegetarian Curries"]
+    },
+    {
+      "id": 58,
+      "name": "Paneer Bhurji",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 140,
+      "description": "Scrambled paneer cooked with spices.",
+      "categories": ["Vegetarian Curries"]
+    },
+    {
+      "id": 59,
+      "name": "Aloo Bhujia",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 60,
+      "description": "Spiced potato stir-fry.",
+      "categories": ["Vegetarian Curries"]
+    },
+    {
+      "id": 60,
+      "name": "Chicken Curry",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 200,
+      "description": "Chicken cooked in a spicy curry.",
+      "categories": ["Chicken Dishes"]
+    },
+    {
+      "id": 61,
+      "name": "Chicken Masala",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 210,
+      "description": "Chicken cooked in a spicy masala sauce.",
+      "categories": ["Chicken Dishes"]
+    },
+    {
+      "id": 62,
+      "name": "Kadai Chicken",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 200,
+      "description": "Chicken cooked in a kadai with spices.",
+      "categories": ["Chicken Dishes"]
+    },
+    {
+      "id": 63,
+      "name": "Butter Chicken",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 210,
+      "description": "Chicken cooked in a buttery, creamy sauce.",
+      "categories": ["Chicken Dishes"]
+    },
+    {
+      "id": 64,
+      "name": "Butter Chicken Masala",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 220,
+      "description": "Chicken cooked in a buttery, creamy masala sauce.",
+      "categories": ["Chicken Dishes"]
+    },
+    {
+      "id": 65,
+      "name": "Chicken Korma",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 200,
+      "description": "Chicken cooked in a rich, creamy korma sauce.",
+      "categories": ["Chicken Dishes"]
+    },
+    {
+      "id": 66,
+      "name": "Rarra Chicken",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 230,
+      "description": "Chicken cooked in a spicy rarra sauce.",
+      "categories": ["Chicken Dishes"]
+    },
+    {
+      "id": 67,
+      "name": "Chicken Keema Boneless",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 250,
+      "description": "Boneless chicken keema cooked with spices.",
+      "categories": ["Chicken Dishes"]
+    },
+    {
+      "id": 68,
+      "name": "Banana Shake",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 70,
+      "description": "A refreshing banana shake.",
+      "categories": ["Shakes & Cold Drinks"]
+    },
+    {
+      "id": 69,
+      "name": "Mango Shake",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 70,
+      "description": "A refreshing mango shake.",
+      "categories": ["Shakes & Cold Drinks"]
+    },
+    {
+      "id": 70,
+      "name": "Strawberry Shake",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 70,
+      "description": "A refreshing strawberry shake.",
+      "categories": ["Shakes & Cold Drinks"]
+    },
+    {
+      "id": 71,
+      "name": "Oreo Shake",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 89,
+      "description": "A creamy Oreo shake.",
+      "categories": ["Shakes & Cold Drinks"]
+    },
+    {
+      "id": 72,
+      "name": "Cold Coffee",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 80,
+      "description": "A refreshing cold coffee.",
+      "categories": ["Shakes & Cold Drinks"]
+    },
+    {
+      "id": 73,
+      "name": "Chocolate Shake",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 89,
+      "description": "A creamy chocolate shake.",
+      "categories": ["Shakes & Cold Drinks"]
+    },
+    {
+      "id": 74,
+      "name": "Veg Fried Rice",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 70,
+      "description": "Fried rice with mixed vegetables.",
+      "categories": ["Chinese"]
+    },
+    {
+      "id": 75,
+      "name": "Paneer Fried Rice",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 90,
+      "description": "Fried rice with paneer.",
+      "categories": ["Chinese"]
+    },
+    {
+      "id": 76,
+      "name": "Egg Fried Rice",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 90,
+      "description": "Fried rice with egg.",
+      "categories": ["Chinese"]
+    },
+    {
+      "id": 77,
+      "name": "Chicken Fried Rice",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 120,
+      "description": "Fried rice with chicken.",
+      "categories": ["Chinese"]
+    },
+    {
+      "id": 78,
+      "name": "Veg Chowmein",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 80,
+      "description": "Chowmein with mixed vegetables.",
+      "categories": ["Chinese"]
+    },
+    {
+      "id": 79,
+      "name": "Egg Chowmein",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 90,
+      "description": "Chowmein with egg.",
+      "categories": ["Chinese"]
+    },
+    {
+      "id": 80,
+      "name": "Paneer Chowmein",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 100,
+      "description": "Chowmein with paneer.",
+      "categories": ["Chinese"]
+    },
+    {
+      "id": 81,
+      "name": "Chicken Chowmein",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 120,
+      "description": "Chowmein with chicken.",
+      "categories": ["Chinese"]
+    },
+    {
+      "id": 82,
+      "name": "Chilli Chicken",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 200,
+      "description": "Spicy chilli chicken.",
+      "categories": ["Chinese"]
+    },
+    {
+      "id": 83,
+      "name": "Chilli Paneer",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 150,
+      "description": "Spicy chilli paneer.",
+      "categories": ["Chinese"]
+    },
+    {
+      "id": 84,
+      "name": "Veg Manchurian",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 120,
+      "description": "Vegetable manchurian.",
+      "categories": ["Chinese"]
+    },
+    {
+      "id": 85,
+      "name": "Chicken Manchurian",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 250,
+      "description": "Chicken manchurian.",
+      "categories": ["Chinese"]
+    },
+    {
+      "id": 86,
+      "name": "Veg Biryani",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 100,
+      "description": "Vegetable biryani.",
+      "categories": ["Biryani"]
+    },
+    {
+      "id": 87,
+      "name": "Chicken Biryani",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 140,
+      "description": "Chicken biryani.",
+      "categories": ["Biryani"]
+    },
+    {
+      "id": 88,
+      "name": "Tandoori Chicken",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 200,
+      "description": "Spicy grilled chicken marinated in yogurt and spices.",
+      "categories": ["Tandoori & Kababs"]
+    },
+    {
+      "id": 89,
+      "name": "Afghani Chicken",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 230,
+      "description": "Chicken marinated in Afghani spices.",
+      "categories": ["Tandoori & Kababs"]
+    },
+    {
+      "id": 90,
+      "name": "Chicken Tikka",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 220,
+      "description": "Chicken tikka marinated in spices.",
+      "categories": ["Tandoori & Kababs"]
+    },
+    {
+      "id": 91,
+      "name": "Chicken Malai Tikka",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 230,
+      "description": "Chicken tikka marinated in creamy spices.",
+      "categories": ["Tandoori & Kababs"]
+    },
+    {
+      "id": 92,
+      "name": "Chicken Seekh Kabab",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 150,
+      "description": "Chicken seekh kabab.",
+      "categories": ["Tandoori & Kababs"]
+    },
+    {
+      "id": 93,
+      "name": "Paneer Tikka",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 200,
+      "description": "Paneer tikka marinated in spices.",
+      "categories": ["Tandoori & Kababs"]
+    },
+    {
+      "id": 94,
+      "name": "Afghani Paneer Tikka",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 220,
+      "description": "Paneer tikka marinated in Afghani spices.",
+      "categories": ["Tandoori & Kababs"]
+    },
+    {
+      "id": 95,
+      "name": "Achari Paneer Tikka",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 200,
+      "description": "Paneer tikka marinated in achar spices.",
+      "categories": ["Tandoori & Kababs"]
+    },
+    {
+      "id": 96,
+      "name": "Veg Seekh Kabab",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 120,
+      "description": "Vegetable seekh kabab.",
+      "categories": ["Tandoori & Kababs"]
+    },
+    {
+      "id": 97,
+      "name": "Veg Thali",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 80,
+      "description": "A complete meal with various vegetarian dishes.",
+      "categories": ["Thali"]
+    },
+    {
+      "id": 98,
+      "name": "Egg Thali",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 90,
+      "description": "A complete meal with egg curry and other dishes.",
+      "categories": ["Thali"]
+    },
+    {
+      "id": 99,
+      "name": "Chicken Thali",
+      "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=2070&auto=format&fit=crop",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 120,
+      "description": "A complete meal with chicken curry and other dishes.",
+      "categories": ["Thali"]
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Md. Athik Foisal",
+      "avatar": "https://randomuser.me/api/portraits/men/1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Jane Doe",
+      "avatar": "https://randomuser.me/api/portraits/women/2.jpg"
+    }
+  ]
+}
