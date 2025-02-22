@@ -127,3 +127,9 @@ select {
   -webkit-appearance: none; /* For Safari */
   -moz-appearance: none; /* For Firefox */
 }
+
+
+/* Scroll behaviour smooth */
+html {
+  scroll-behavior: smooth;
+}

@@ -1,9 +1,13 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import PopularDishesCard from '../compomnets/Home/PopularDishes/DishesCard'
 import data from '../data.json'
 
 function Menu() {
   const [selectedCategory, setSelectedCategory] = useState('All');
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   const categories = [
     'All', 'Beverages', 'Desserts', 'Breads', 'Rice & Pulav', 'Sandwiches', 'Paneer Dishes', 
