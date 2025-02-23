@@ -7,6 +7,7 @@ import Cart from './Cart/Cart';
 
 function Navbar() {
     const [isModalOpen, setIsModalOpen] = useState(false);
+    const [address, setAddress] = useState('');
     const addedDishes = useSelector((state) => state.dishes.dishes);
 
     useEffect(() => {
@@ -26,6 +27,17 @@ function Navbar() {
     };
 
     const totalAmount = addedDishes.reduce((total, dish) => total + dish.price * dish.quantity, 0);
+
+    const handleConfirmOrder = () => {
+        const orderDetails = addedDishes.map((dish, index) => {
+            return `${index + 1}️⃣ ${dish.name} - ${dish.quantity} ${dish.quantity > 1 ? 'Pieces' : 'Piece'}`;
+        }).join('\n');
+
+        const message = `Hello, I’d like to place an order:\n\n🛒 Order Details:\n${orderDetails}\n\n💰 Total Amount: ₹${totalAmount.toFixed(2)}\n\n📍 Delivery Address: ${address}`;
+
+        const whatsappUrl = `https://wa.me/9060557296?text=${encodeURIComponent(message)}`;
+        window.open(whatsappUrl, '_blank');
+    };
 
     return (
         <div className='flex justify-between px-4 md:px-10 lg:px-20 py-4 md:py-6 lg:py-10 md:grid grid-cols-2 md:grid-cols-3 bg-stone-50'>
@@ -51,7 +63,19 @@ function Navbar() {
                         <Cart />
                         <div className='flex justify-between mt-4'>
                             <div className='text-lg font-semibold'>Total</div>
-                            <div className='text-lg font-semibold'>${totalAmount.toFixed(2)}</div>
+                            <div className='text-lg font-semibold'>₹{totalAmount.toFixed(2)}</div>
+                        </div>
+                        <div className='mt-4'>
+                            <label htmlFor="address" className='block text-sm font-medium text-gray-700'>Delivery Address</label>
+                            <input 
+                                type="text" 
+                                id="address" 
+                                name="address" 
+                                value={address} 
+                                onChange={(e) => setAddress(e.target.value)} 
+                                className='mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm sm:text-sm outline-stone-600 outline-1'
+                                placeholder="Enter your delivery address"
+                            />
                         </div>
                         <div className='mt-8 text-white poppins-medium flex justify-between items-center sticky md:static bottom-0 bg-stone-50 md:bg-transparent shadow-lg md:shadow-none shadow-stone-600 border md:border-none border-stone-300 rounded-2xl p-3 md:px-0 text-sm md:text-base'>
                             <div
@@ -60,7 +84,10 @@ function Navbar() {
                             >
                                 Close
                             </div>
-                            <div className='bg-green-600 text-white px-4 md:px-6 rounded-tl-lg rounded-bl-3xl rounded-tr-3xl rounded-br-lg hover:bg-green-500 transition-all duration-300 cursor-pointer py-3'>
+                            <div
+                                className='bg-green-600 text-white px-4 md:px-6 rounded-tl-lg rounded-bl-3xl rounded-tr-3xl rounded-br-lg hover:bg-green-500 transition-all duration-300 cursor-pointer py-3'
+                                onClick={handleConfirmOrder}
+                            >
                                 Confirm Order
                             </div>
                         </div>
