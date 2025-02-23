@@ -1,13 +1,19 @@
-import React, { useState, useEffect } from 'react'
-import PopularDishesCard from '../compomnets/Home/PopularDishes/DishesCard'
-import data from '../data.json'
+import React, { useState, useEffect } from 'react';
+import { useSelector } from 'react-redux';
+import DishesCard from '../compomnets/Home/PopularDishes/DishesCard';
+import data from '../data.json';
 
 function Menu() {
   const [selectedCategory, setSelectedCategory] = useState('All');
+  const addedDishes = useSelector((state) => state.dishes.dishes);
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+  useEffect(() => {
+    console.log('Added Dishes:', addedDishes);
+  }, [addedDishes]);
 
   const categories = [
     'All', 'Beverages', 'Desserts', 'Breads', 'Rice & Pulav', 'Sandwiches', 'Paneer Dishes', 
@@ -47,12 +53,12 @@ function Menu() {
         </div>
         <div className='flex flex-wrap justify-center gap-5 lg:gap-8 mt-5 md:mt-10 lg:mt-16'>
           {filteredDishes.map(dish => (
-            <PopularDishesCard key={dish.id} dish={dish} />
+            <DishesCard key={dish.id} dish={dish} />
           ))}
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Menu
+export default Menu;

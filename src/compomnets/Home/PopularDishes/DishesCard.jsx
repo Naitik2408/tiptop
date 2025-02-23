@@ -1,21 +1,39 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { addDish, removeDish } from '../../../Redux/dishesSlice';
+import toast from 'react-hot-toast';
 
-function PopularDishesCard({ dish }) {
-  const [quantity, setQuantity] = useState(0);
+function DishesCard({ dish }) {
+  const dispatch = useDispatch();
+  const storedDish = useSelector((state) => state.dishes.dishes.find((d) => d.id === dish.id));
+  const [quantity, setQuantity] = useState(storedDish ? storedDish.quantity : 0);
 
-  const handleAddToCart = () => {
+  useEffect(() => {
+    if (storedDish) {
+      setQuantity(storedDish.quantity);
+    } else {
+      setQuantity(0);
+    }
+  }, [storedDish]);
+
+  const handleAddToCart = (dish) => {
     setQuantity(1);
+    dispatch(addDish({ ...dish, quantity: 1 }));
+    toast.success(`${dish.name} added to cart!`);
   };
 
   const handleIncrease = () => {
     setQuantity(quantity + 1);
+    dispatch(addDish({ ...dish, quantity: 1 }));
   };
 
   const handleDecrease = () => {
     if (quantity > 1) {
       setQuantity(quantity - 1);
+      dispatch(addDish({ ...dish, quantity: -1 }));
     } else {
       setQuantity(0);
+      dispatch(removeDish(dish));
     }
   };
 
@@ -38,7 +56,7 @@ function PopularDishesCard({ dish }) {
           {quantity === 0 ? (
             <div
               className='text-sm md:text-lg bg-red-400 text-white p-2 px-3 md:px-5 rounded-tl-lg rounded-bl-2xl md:rounded-bl-3xl rounded-br-lg rounded-tr-2xl md:rounded-tr-3xl cursor-pointer hover:bg-red-500 transition-all duration-300'
-              onClick={handleAddToCart}
+              onClick={() => handleAddToCart(dish)}
             >
               Add to Cart
             </div>
@@ -65,4 +83,4 @@ function PopularDishesCard({ dish }) {
   );
 }
 
-export default PopularDishesCard;
+export default DishesCard;

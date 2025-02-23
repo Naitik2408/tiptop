@@ -6,15 +6,16 @@ import Menu from './pages/Menu';
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path='/menu' element={<Menu/>}/>
-          {/* Add other routes here if needed */}
-        </Route>
-      </Routes>
-    </Router>
+    <>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Home />} />
+            <Route path='/menu' element={<Menu />} />
+          </Route>
+        </Routes>
+      </Router>
+    </>
   );
 }
 
