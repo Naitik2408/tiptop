@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useSelector } from 'react-redux';
 import { BsHandbag } from "react-icons/bs";
 import { GiChickenOven } from "react-icons/gi";
@@ -8,6 +8,14 @@ import Cart from './Cart/Cart';
 function Navbar() {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const addedDishes = useSelector((state) => state.dishes.dishes);
+
+    useEffect(() => {
+        if (isModalOpen) {
+            document.body.style.overflow = 'hidden';
+        } else {
+            document.body.style.overflow = 'auto';
+        }
+    }, [isModalOpen]);
 
     const handleOpenModal = () => {
         setIsModalOpen(true);
@@ -39,20 +47,20 @@ function Navbar() {
 
             {isModalOpen && (
                 <div className='fixed inset-0 bg-stone-400/55 backdrop-blur-md bg-opacity-50 flex justify-center items-center z-50'>
-                    <div className='bg-white min-h-96 max-h-[500px] overflow-y-auto mx-2 w-full max-w-lg flex flex-col justify-between p-4 md:p-7 rounded-2xl shadow-2xl shadow-stone-600'>
+                    <div className='bg-white min-h-96 max-h-[500px] overflow-y-auto mx-2 w-full max-w-[700px] flex flex-col justify-between p-4 md:p-7 rounded-2xl shadow-2xl shadow-stone-600'>
                         <Cart />
                         <div className='flex justify-between mt-4'>
                             <div className='text-lg font-semibold'>Total</div>
                             <div className='text-lg font-semibold'>${totalAmount.toFixed(2)}</div>
                         </div>
-                        <div className='mt-8 text-white poppins-medium flex justify-between items-center'>
+                        <div className='mt-8 text-white poppins-medium flex justify-between items-center sticky md:static bottom-0 bg-stone-50 md:bg-transparent shadow-lg md:shadow-none shadow-stone-600 border md:border-none border-stone-300 rounded-2xl p-3 md:px-0 text-sm md:text-base'>
                             <div
-                                className='bg-red-400 text-white px-4 md:px-6 rounded-tl-lg rounded-bl-3xl rounded-tr-3xl rounded-br-lg hover:bg-red-500 transition-all duration-300 cursor-pointer py-2'
+                                className='bg-red-400 text-white px-4 md:px-6 rounded-tl-lg rounded-bl-3xl rounded-tr-3xl rounded-br-lg hover:bg-red-500 transition-all duration-300 cursor-pointer py-3'
                                 onClick={handleCloseModal}
                             >
                                 Close
                             </div>
-                            <div className='bg-green-600 text-white px-4 md:px-6 rounded-tl-lg rounded-bl-3xl rounded-tr-3xl rounded-br-lg hover:bg-green-500 transition-all duration-300 cursor-pointer py-2'>
+                            <div className='bg-green-600 text-white px-4 md:px-6 rounded-tl-lg rounded-bl-3xl rounded-tr-3xl rounded-br-lg hover:bg-green-500 transition-all duration-300 cursor-pointer py-3'>
                                 Confirm Order
                             </div>
                         </div>
