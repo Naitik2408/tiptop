@@ -6,6 +6,7 @@ import data from '../data.json';
 function Menu() {
   const [selectedCategory, setSelectedCategory] = useState('All');
   const [searchQuery, setSearchQuery] = useState('');
+  const [debouncedSearchQuery, setDebouncedSearchQuery] = useState('');
   const addedDishes = useSelector((state) => state.dishes.dishes);
 
   useEffect(() => {
@@ -16,6 +17,16 @@ function Menu() {
     console.log('Added Dishes:', addedDishes);
   }, [addedDishes]);
 
+  useEffect(() => {
+    const handler = setTimeout(() => {
+      setDebouncedSearchQuery(searchQuery);
+    }, 800);
+
+    return () => {
+      clearTimeout(handler);
+    };
+  }, [searchQuery]);
+
   const categories = [
     'All', 'Beverages', 'Desserts', 'Breads', 'Rice & Pulav', 'Sandwiches', 'Paneer Dishes',
     'Vegetarian Curries', 'Chicken Dishes', 'Shakes & Cold Drinks', 'Chinese', 'Biryani',
@@ -24,7 +35,7 @@ function Menu() {
 
   const filteredDishes = data.dishes.filter(dish => {
     const matchesCategory = selectedCategory === 'All' || dish.categories.includes(selectedCategory);
-    const matchesSearch = dish.name.toLowerCase().includes(searchQuery.toLowerCase());
+    const matchesSearch = dish.name.toLowerCase().includes(debouncedSearchQuery.toLowerCase());
     return matchesCategory && matchesSearch;
   });
 
@@ -66,8 +77,8 @@ function Menu() {
           />
         </div>
         <div className='flex flex-wrap justify-center gap-5 lg:gap-8 mt-5 md:mt-10 lg:mt-16'>
-          {filteredDishes.map(dish => (
-            <DishesCard key={dish.id} dish={dish} />
+          {filteredDishes.map((dish, index) => (
+            <DishesCard key={`${dish.id}-${debouncedSearchQuery}-${selectedCategory}-${index}`} dish={dish} />
           ))}
         </div>
       </div>

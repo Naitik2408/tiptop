@@ -38,7 +38,7 @@ function DishesCard({ dish }) {
   };
 
   return (
-    <div className='w-full md:w-80 lg:w-96 md:min-h-[350px] lg:min-h-[400px] shadow shadow-stone-200 md:shadow-xl md:shadow-stone-400 border border-stone-200 rounded-t-[50px] md:rounded-t-[70px] lg:rounded-t-[90px] rounded-b-2xl md:rounded-b-3xl lg:rounded-b-4xl p-5 md:p-8 lg:p-10'>
+    <div className='w-full md:w-80 lg:w-96 md:min-h-[350px] lg:min-h-[400px] shadow shadow-stone-200 md:shadow-xl md:shadow-stone-400 border border-stone-200 rounded-t-[50px] md:rounded-t-[70px] lg:rounded-t-[90px] rounded-b-2xl md:rounded-b-3xl lg:rounded-b-4xl p-5 md:p-8 lg:p-10 animate-slide-up'>
       <div className='flex justify-between items-center min-h-24 md:min-h-28 lg:min-h-32 poppins-medium'>
         <div>{dish?.rating}</div>
         <div className='relative'>
