@@ -61,7 +61,7 @@ function Navbar() {
                     onClick={handleOpenModal}
                 >
                     <BsHandbag size={20} />
-                    <div className='absolute w-7 poppins-regular right-8 aspect-square flex justify-center items-center bg-red-400 rounded-full text-white bottom-6 text-sm group-hover:bg-stone-50 group-hover:text-red-500 group-hover:border group-hover:border-stone-300 transition-all duration-300'>
+                    <div className='absolute w-7 poppins-regular right-6 md:right-8 aspect-square flex justify-center items-center bg-red-400 rounded-full text-white bottom-6 text-sm group-hover:bg-stone-50 group-hover:text-red-500 group-hover:border group-hover:border-stone-300 transition-all duration-300'>
                         {totalItems}
                     </div>
                 </div>
