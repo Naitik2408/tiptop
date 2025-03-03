@@ -50,11 +50,11 @@ function Navbar() {
     return (
         <div className='flex justify-between px-4 md:px-10 lg:px-20 py-4 md:py-6 lg:py-10 md:grid grid-cols-2 md:grid-cols-3 bg-stone-50'>
             <Link to={'/'} className='flex gap-2 md:gap-3 items-center sigmar-regular'>
-                <div className='p-2 md:p-3 rounded-full bg-red-400 w-fit text-white'>
+                {/* <div className='p-2 md:p-3 rounded-full bg-red-400 w-fit text-white'>
                     <GiChickenOven size={30} md:size={40} lg:size={50} />
                 </div>
-                <div className='text-xl md:text-2xl lg:text-3xl text-red-400'>The TipTop</div>
-                {/* <img src={logo} alt="logo" className='w-40 drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)] shadow-gray-400' /> */}
+                <div className='text-xl md:text-2xl lg:text-3xl text-red-400'>The TipTop</div> */}
+                <img src={logo} alt="logo" className='w-40' />
             </Link>
             <div className='hidden md:block'></div>
             <div className='flex justify-end items-center'>
