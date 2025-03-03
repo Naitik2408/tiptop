@@ -990,17 +990,5 @@
       "description": "A complete meal with chicken curry and other dishes.",
       "categories": ["Thali"]
     }
-  ],
-  "users": [
-    {
-      "id": 1,
-      "name": "Md. Athik Foisal",
-      "avatar": "https://randomuser.me/api/portraits/men/1.jpg"
-    },
-    {
-      "id": 2,
-      "name": "Jane Doe",
-      "avatar": "https://randomuser.me/api/portraits/women/2.jpg"
-    }
   ]
 }

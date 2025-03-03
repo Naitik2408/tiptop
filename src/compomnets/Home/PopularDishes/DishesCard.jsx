@@ -52,7 +52,7 @@ function DishesCard({ dish }) {
         <div className='text-lg md:text-xl lg:text-2xl poppins-medium'>{dish?.name}</div>
         <div className='mt-2 md:mt-3 lg:mt-4 poppins-regular text-stone-500 text-xs md:text-sm lg:text-base'>{dish?.description}</div>
         <div className='flex justify-between items-center mt-3 md:mt-4 lg:mt-5 poppins-medium'>
-          <div className='text-xl md:text-2xl lg:text-3xl'>${dish?.price}</div>
+          <div className='text-xl md:text-2xl lg:text-3xl'>₹{dish?.price}</div>
           {quantity === 0 ? (
             <div
               className='text-sm md:text-lg bg-red-400 text-white p-2 px-3 md:px-5 rounded-tl-lg rounded-bl-2xl md:rounded-bl-3xl rounded-br-lg rounded-tr-2xl md:rounded-tr-3xl cursor-pointer hover:bg-red-500 transition-all duration-300'

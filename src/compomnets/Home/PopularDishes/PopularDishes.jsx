@@ -9,7 +9,7 @@ function PopularDishes() {
 
     return (
         <div className='flex flex-col text-center items-center px-4 md:px-20 lg:px-40'>
-            <div className='sigmar-regular  text-3xl md:text-4xl lg:text-5xl'>Our Popular <br className='block md:hidden' /> Dishes</div>
+            <div className='sigmar-regular  text-3xl md:text-4xl lg:text-5xl'>Explore Our<br className='block md:hidden' /> Menu</div>
             <div className='mt-10 md:mt-20 lg:mt-32 flex flex-col md:flex-row gap-10'>
                 {topDishes.map(dish => (
                     <PopularDishesCard key={dish?.id} dish={dish} />

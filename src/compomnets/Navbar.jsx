@@ -5,6 +5,7 @@ import { GiChickenOven } from "react-icons/gi";
 import { Link } from 'react-router-dom';
 import toast, { Toaster } from 'react-hot-toast';
 import Cart from './Cart/Cart';
+import logo from '../assets/logo.png'
 
 function Navbar() {
     const [isModalOpen, setIsModalOpen] = useState(false);
@@ -53,6 +54,7 @@ function Navbar() {
                     <GiChickenOven size={30} md:size={40} lg:size={50} />
                 </div>
                 <div className='text-xl md:text-2xl lg:text-3xl text-red-400'>The TipTop</div>
+                {/* <img src={logo} alt="logo" className='w-40 drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)] shadow-gray-400' /> */}
             </Link>
             <div className='hidden md:block'></div>
             <div className='flex justify-end items-center'>

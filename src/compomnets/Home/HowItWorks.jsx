@@ -18,7 +18,7 @@ function HowItWorks() {
                     </div>
                     <div className='text-center mt-5 md:mt-8 lg:mt-10'>
                         <div className='text-lg md:text-xl lg:text-2xl poppins-semibold text-red-500'>Choose Your Meal</div>
-                        <div className='mt-2 md:mt-3 lg:mt-4 poppins-regular text-stone-500 text-xs md:text-sm lg:text-base'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur eveniet minus ipsam dolorem est? Reiciendis culpa porro cupiditate inventore maiores.</div>
+                        <div className='mt-2 md:mt-3 lg:mt-4 poppins-regular text-stone-500 text-xs md:text-sm lg:text-base'>See the menu area for all of our dishes. Decide on your preferred dish and serving size. And to place the order click the Cart icon.</div>
                     </div>
                 </div>
 
@@ -31,8 +31,8 @@ function HowItWorks() {
                         </div>
                     </div>
                     <div className='text-center mt-5 md:mt-8 lg:mt-10'>
-                        <div className='text-lg md:text-xl lg:text-2xl poppins-semibold text-red-500'>Track Your Order</div>
-                        <div className='mt-2 md:mt-3 lg:mt-4 poppins-regular text-stone-500 text-xs md:text-sm lg:text-base'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur eveniet minus ipsam dolorem est? Reiciendis culpa porro cupiditate inventore maiores.</div>
+                        <div className='text-lg md:text-xl lg:text-2xl poppins-semibold text-red-500'>Your Order</div>
+                        <div className='mt-2 md:mt-3 lg:mt-4 poppins-regular text-stone-500 text-xs md:text-sm lg:text-base'>After placing order procced to WhatsApp to confirm your order and add some extra demand if required.</div>
                     </div>
                 </div>
 
@@ -46,8 +46,8 @@ function HowItWorks() {
                         </div>
                     </div>
                     <div className='text-center mt-5 md:mt-8 lg:mt-10'>
-                        <div className='text-lg md:text-xl lg:text-2xl poppins-semibold text-red-500'>Collect Your Meal</div>
-                        <div className='mt-2 md:mt-3 lg:mt-4 poppins-regular text-stone-500 text-xs md:text-sm lg:text-base'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur eveniet minus ipsam dolorem est? Reiciendis culpa porro cupiditate inventore maiores.</div>
+                        <div className='text-lg md:text-xl lg:text-2xl poppins-semibold text-red-500'>Visit your Nearest Restaurant</div>
+                        <div className='mt-2 md:mt-3 lg:mt-4 poppins-regular text-stone-500 text-xs md:text-sm lg:text-base'>Enjoy your food and the vibe of your nearest tip top restaurant at the comfort of your place.</div>
                     </div>
                 </div>
             </div>
