@@ -8,7 +8,7 @@
       "reviews": 1500,
       "price": 50,
       "description": "Rich and creamy butter chicken with a blend of spices.",
-      "categories": ["Chicken Dishes"]
+      "categories": ["Non-Veg Combo", "Chicken Dishes"]
     },
     {
       "id": 2,
@@ -18,17 +18,7 @@
       "reviews": 2000,
       "price": 45,
       "description": "Aromatic chicken biryani with tender chicken pieces.",
-      "categories": ["Biryani", "Chicken Dishes"]
-    },
-    {
-      "id": 3,
-      "name": "Paneer Tikka",
-      "image": "https://images.unsplash.com/photo-1666001120694-3ebe8fd207be?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "rating": 4.6,
-      "reviews": 1800,
-      "price": 40,
-      "description": "Grilled paneer cubes marinated in spices.",
-      "categories": ["Paneer Dishes", "Tandoori & Kababs"]
+      "categories": ["Biryani", "Non-Vegetarian"]
     },
     {
       "id": 4,
@@ -38,7 +28,7 @@
       "reviews": 1700,
       "price": 55,
       "description": "Tender lamb cooked in a rich, flavorful sauce.",
-      "categories": ["Non-Vegetarian Curries"]
+      "categories": ["Non-Veg Combo", "Non-Vegetarian"]
     },
     {
       "id": 5,
@@ -48,7 +38,7 @@
       "reviews": 1600,
       "price": 35,
       "description": "Mixed vegetables in a creamy, spiced sauce.",
-      "categories": ["Vegetarian Curries"]
+      "categories": ["Veg Combo", "Vegetarian Curries"]
     },
     {
       "id": 6,
@@ -56,9 +46,10 @@
       "image": "https://images.unsplash.com/photo-1610057099443-fde8c4d50f91?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "rating": 4.9,
       "reviews": 2100,
-      "price": 50,
+      "price": 200,
       "description": "Spicy grilled chicken marinated in yogurt and spices.",
-      "categories": ["Tandoori & Kababs", "Chicken Dishes"]
+      "categories": ["Tandoori Snacks", "Non-Vegetarian"],
+      "quantity": "6PC"
     },
     {
       "id": 7,
@@ -78,7 +69,7 @@
       "reviews": 1900,
       "price": 60,
       "description": "Fresh fish cooked in a spicy coconut curry.",
-      "categories": ["Non-Vegetarian Curries"]
+      "categories": ["Non-Veg Combo", "Non-Vegetarian"]
     },
     {
       "id": 9,
@@ -108,7 +99,7 @@
       "reviews": 1800,
       "price": 45,
       "description": "Paneer cubes in a creamy spinach sauce.",
-      "categories": ["Paneer Dishes"]
+      "categories": ["Paneer Dishes", "Vegetarian"]
     },
     {
       "id": 12,
@@ -118,7 +109,7 @@
       "reviews": 2200,
       "price": 65,
       "description": "Flavorful biryani with tender mutton pieces.",
-      "categories": ["Biryani", "Non-Vegetarian Curries"]
+      "categories": ["Biryani", "Non-Vegetarian"]
     },
     {
       "id": 13,
@@ -128,7 +119,7 @@
       "reviews": 2000,
       "price": 70,
       "description": "Juicy prawns cooked in a spicy masala sauce.",
-      "categories": ["Non-Vegetarian Curries"]
+      "categories": ["Non-Veg Combo", "Non-Vegetarian"]
     },
     {
       "id": 14,
@@ -148,7 +139,7 @@
       "reviews": 1700,
       "price": 50,
       "description": "Paneer cooked with bell peppers and spices.",
-      "categories": ["Paneer Dishes"]
+      "categories": ["Paneer Dishes", "Vegetarian"]
     },
     {
       "id": 16,
@@ -158,7 +149,7 @@
       "reviews": 1400,
       "price": 35,
       "description": "Boiled eggs in a spicy tomato-based curry.",
-      "categories": ["Non-Vegetarian Curries"]
+      "categories": ["Non-Veg Combo", "Non-Vegetarian"]
     },
     {
       "id": 17,
@@ -188,7 +179,7 @@
       "reviews": 2500,
       "price": 55,
       "description": "Grilled chicken in a creamy, spiced sauce.",
-      "categories": ["Chicken Dishes"]
+      "categories": ["Non-Veg Combo", "Chicken Dishes"]
     },
     {
       "id": 20,
@@ -218,7 +209,7 @@
       "reviews": 1700,
       "price": 90,
       "description": "A complete meal with egg curry and other dishes.",
-      "categories": ["Thali", "Non-Vegetarian Curries"]
+      "categories": ["Thali", "Non-Vegetarian"]
     },
     {
       "id": 23,
@@ -228,7 +219,7 @@
       "reviews": 1800,
       "price": 120,
       "description": "A complete meal with chicken curry and other dishes.",
-      "categories": ["Thali", "Chicken Dishes"]
+      "categories": ["Thali", "Non-Veg Combo", "Chicken Dishes"]
     },
     {
       "id": 24,
@@ -458,7 +449,7 @@
       "reviews": 1800,
       "price": 150,
       "description": "Paneer cooked in a creamy, spiced sauce.",
-      "categories": ["Paneer Dishes"]
+      "categories": ["Paneer Dishes", "Vegetarian"]
     },
     {
       "id": 47,
@@ -468,7 +459,7 @@
       "reviews": 1800,
       "price": 120,
       "description": "Paneer cooked with bell peppers and spices.",
-      "categories": ["Paneer Dishes"]
+      "categories": ["Paneer Dishes", "Vegetarian"]
     },
     {
       "id": 48,
@@ -478,7 +469,7 @@
       "reviews": 1800,
       "price": 120,
       "description": "Paneer cooked in a rich, creamy sauce.",
-      "categories": ["Paneer Dishes"]
+      "categories": ["Paneer Dishes", "Vegetarian"]
     },
     {
       "id": 49,
@@ -488,7 +479,7 @@
       "reviews": 1800,
       "price": 130,
       "description": "Paneer cooked with onions and spices.",
-      "categories": ["Paneer Dishes"]
+      "categories": ["Paneer Dishes", "Vegetarian"]
     },
     {
       "id": 50,
@@ -498,7 +489,7 @@
       "reviews": 1800,
       "price": 120,
       "description": "Paneer cooked with peas and spices.",
-      "categories": ["Paneer Dishes"]
+      "categories": ["Paneer Dishes", "Vegetarian"]
     },
     {
       "id": 51,
@@ -508,7 +499,7 @@
       "reviews": 1800,
       "price": 130,
       "description": "Paneer cooked in a buttery, creamy sauce.",
-      "categories": ["Paneer Dishes"]
+      "categories": ["Paneer Dishes", "Vegetarian"]
     },
     {
       "id": 52,
@@ -518,7 +509,7 @@
       "reviews": 1800,
       "price": 120,
       "description": "Paneer cooked in a handi with spices.",
-      "categories": ["Paneer Dishes"]
+      "categories": ["Paneer Dishes", "Vegetarian"]
     },
     {
       "id": 53,
@@ -598,7 +589,7 @@
       "reviews": 1800,
       "price": 200,
       "description": "Chicken cooked in a spicy curry.",
-      "categories": ["Chicken Dishes"]
+      "categories": ["Non-Veg Combo", "Chicken Dishes"]
     },
     {
       "id": 61,
@@ -608,7 +599,7 @@
       "reviews": 1800,
       "price": 210,
       "description": "Chicken cooked in a spicy masala sauce.",
-      "categories": ["Chicken Dishes"]
+      "categories": ["Non-Veg Combo", "Chicken Dishes"]
     },
     {
       "id": 62,
@@ -618,7 +609,7 @@
       "reviews": 1800,
       "price": 200,
       "description": "Chicken cooked in a kadai with spices.",
-      "categories": ["Chicken Dishes"]
+      "categories": ["Non-Veg Combo", "Chicken Dishes"]
     },
     {
       "id": 63,
@@ -628,7 +619,7 @@
       "reviews": 1800,
       "price": 210,
       "description": "Chicken cooked in a buttery, creamy sauce.",
-      "categories": ["Chicken Dishes"]
+      "categories": ["Non-Veg Combo", "Chicken Dishes"]
     },
     {
       "id": 64,
@@ -638,7 +629,7 @@
       "reviews": 1800,
       "price": 220,
       "description": "Chicken cooked in a buttery, creamy masala sauce.",
-      "categories": ["Chicken Dishes"]
+      "categories": ["Non-Veg Combo", "Chicken Dishes"]
     },
     {
       "id": 65,
@@ -648,7 +639,7 @@
       "reviews": 1800,
       "price": 200,
       "description": "Chicken cooked in a rich, creamy korma sauce.",
-      "categories": ["Chicken Dishes"]
+      "categories": ["Non-Veg Combo", "Chicken Dishes"]
     },
     {
       "id": 66,
@@ -658,7 +649,7 @@
       "reviews": 1800,
       "price": 230,
       "description": "Chicken cooked in a spicy rarra sauce.",
-      "categories": ["Chicken Dishes"]
+      "categories": ["Non-Veg Combo", "Chicken Dishes"]
     },
     {
       "id": 67,
@@ -668,7 +659,7 @@
       "reviews": 1800,
       "price": 250,
       "description": "Boneless chicken keema cooked with spices.",
-      "categories": ["Chicken Dishes"]
+      "categories": ["Non-Veg Combo", "Chicken Dishes"]
     },
     {
       "id": 68,
@@ -678,7 +669,7 @@
       "reviews": 1800,
       "price": 70,
       "description": "A refreshing banana shake.",
-      "categories": ["Shakes & Cold Drinks"]
+      "categories": ["Shakes","Cold Drinks"]
     },
     {
       "id": 69,
@@ -688,7 +679,7 @@
       "reviews": 1800,
       "price": 70,
       "description": "A refreshing mango shake.",
-      "categories": ["Shakes & Cold Drinks"]
+      "categories": ["Shakes","Cold Drinks"]
     },
     {
       "id": 70,
@@ -698,7 +689,7 @@
       "reviews": 1800,
       "price": 70,
       "description": "A refreshing strawberry shake.",
-      "categories": ["Shakes & Cold Drinks"]
+      "categories": ["Shakes","Cold Drinks"]
     },
     {
       "id": 71,
@@ -706,9 +697,59 @@
       "image": "https://media.istockphoto.com/id/2175043434/photo/chocolate-cookie-milkshake-with-almonds-and-strawberry-served-in-jar-isolated-on-wooden-board.jpg?s=2048x2048&w=is&k=20&c=I1bzeUSrHJ5p8UxzdEyU2akrek0QhneP5vYSn6BIRj0=",
       "rating": 4.7,
       "reviews": 1800,
-      "price": 89,
+      "price": 80,
       "description": "A creamy Oreo shake.",
-      "categories": ["Shakes & Cold Drinks"]
+      "categories": ["Shakes","Cold Drinks"]
+    },
+    {
+      "id": 71,
+      "name": "Kaju Shake",
+      "image": "https://media.istockphoto.com/id/2175043434/photo/chocolate-cookie-milkshake-with-almonds-and-strawberry-served-in-jar-isolated-on-wooden-board.jpg?s=2048x2048&w=is&k=20&c=I1bzeUSrHJ5p8UxzdEyU2akrek0QhneP5vYSn6BIRj0=",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 90,
+      "description": "A creamy Kaju shake.",
+      "categories": ["Shakes","Cold Drinks"]
+    },
+    {
+      "id": 71,
+      "name": "Mix Shake",
+      "image": "https://media.istockphoto.com/id/2175043434/photo/chocolate-cookie-milkshake-with-almonds-and-strawberry-served-in-jar-isolated-on-wooden-board.jpg?s=2048x2048&w=is&k=20&c=I1bzeUSrHJ5p8UxzdEyU2akrek0QhneP5vYSn6BIRj0=",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 70,
+      "description": "A creamy Kaju shake.",
+      "categories": ["Shakes","Cold Drinks"]
+    },
+    {
+      "id": 71,
+      "name": "Vanilla Shake",
+      "image": "https://media.istockphoto.com/id/2175043434/photo/chocolate-cookie-milkshake-with-almonds-and-strawberry-served-in-jar-isolated-on-wooden-board.jpg?s=2048x2048&w=is&k=20&c=I1bzeUSrHJ5p8UxzdEyU2akrek0QhneP5vYSn6BIRj0=",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 80,
+      "description": "A creamy Kaju shake.",
+      "categories": ["Shakes","Cold Drinks"]
+    },
+    {
+      "id": 71,
+      "name": "Butterscotch Shake",
+      "image": "https://media.istockphoto.com/id/2175043434/photo/chocolate-cookie-milkshake-with-almonds-and-strawberry-served-in-jar-isolated-on-wooden-board.jpg?s=2048x2048&w=is&k=20&c=I1bzeUSrHJ5p8UxzdEyU2akrek0QhneP5vYSn6BIRj0=",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 70,
+      "description": "A creamy Oreo shake.",
+      "categories": ["Shakes","Cold Drinks"]
+    },
+    {
+      "id": 71,
+      "name": "Litchi Shake",
+      "image": "https://media.istockphoto.com/id/2175043434/photo/chocolate-cookie-milkshake-with-almonds-and-strawberry-served-in-jar-isolated-on-wooden-board.jpg?s=2048x2048&w=is&k=20&c=I1bzeUSrHJ5p8UxzdEyU2akrek0QhneP5vYSn6BIRj0=",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 70,
+      "description": "A creamy Oreo shake.",
+      "categories": ["Shakes","Cold Drinks"]
     },
     {
       "id": 72,
@@ -716,9 +757,9 @@
       "image": "https://media.istockphoto.com/id/617367366/photo/cold-chocolate-milkshake-frappe-in-tall-glass-with-ice.jpg?s=2048x2048&w=is&k=20&c=ouKzoHePWPlF9Nt8eQIDrVy0dIyOVBxF2mQCTw3khcw=",
       "rating": 4.7,
       "reviews": 1800,
-      "price": 80,
+      "price": 90,
       "description": "A refreshing cold coffee.",
-      "categories": ["Shakes & Cold Drinks"]
+      "categories": ["Shakes","Cold Drinks"]
     },
     {
       "id": 73,
@@ -726,9 +767,9 @@
       "image": "https://media.istockphoto.com/id/2148722251/photo/milkshake-with-chocolate-in-a-glass-on-a-white-background.jpg?s=2048x2048&w=is&k=20&c=qwB7qJk2ffj-i9KK8TDohnb-6-PrQty-QgvqgCQRJBk=",
       "rating": 4.7,
       "reviews": 1800,
-      "price": 89,
+      "price": 90,
       "description": "A creamy chocolate shake.",
-      "categories": ["Shakes & Cold Drinks"]
+      "categories": ["Shakes","Cold Drinks"]
     },
     {
       "id": 74,
@@ -816,19 +857,10 @@
       "image": "https://media.istockphoto.com/id/901083158/photo/hot-and-spicy-chinese-chicken-dish.jpg?s=2048x2048&w=is&k=20&c=Ghz4TOqgCSFp8tMqlWWj4aQAYGRog27c5N7VOVzhHeA=",
       "rating": 4.7,
       "reviews": 1800,
-      "price": 200,
+      "price": 220,
       "description": "Spicy chilli chicken.",
-      "categories": ["Chinese"]
-    },
-    {
-      "id": 83,
-      "name": "Chilli Paneer",
-      "image": "https://media.istockphoto.com/id/697322292/photo/spicy-paneer-or-chilli-paneer-or-paneer-tikka-or-cottage-cheese-served-in-white-dish-with.jpg?s=2048x2048&w=is&k=20&c=kcQlKZCXpKnikS8_jScEuJnwpxW2DbJiCp7ljiGghF8=",
-      "rating": 4.7,
-      "reviews": 1800,
-      "price": 150,
-      "description": "Spicy chilli paneer.",
-      "categories": ["Chinese"]
+      "categories": ["Chinese"],
+      "quantity":"10PC"
     },
     {
       "id": 84,
@@ -856,9 +888,21 @@
       "image": "https://media.istockphoto.com/id/495184588/photo/indian-pulav-vegetable-rice-veg-biryani-basmati-rice.jpg?s=2048x2048&w=is&k=20&c=Q236CUvR_8gSAZXQ9bwq7S7kA4_kXotXRwTf2796KDo=",
       "rating": 4.7,
       "reviews": 1800,
-      "price": 100,
+      "price": 80,
       "description": "Vegetable biryani.",
-      "categories": ["Biryani"]
+      "categories": ["Biryani", "Vegetarian"],
+      "quantity": "Half"
+    },
+    {
+      "id": 201,
+      "name": "Veg Biryani",
+      "image": "https://media.istockphoto.com/id/495184588/photo/indian-pulav-vegetable-rice-veg-biryani-basmati-rice.jpg?s=2048x2048&w=is&k=20&c=Q236CUvR_8gSAZXQ9bwq7S7kA4_kXotXRwTf2796KDo=",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 120,
+      "description": "Vegetable biryani.",
+      "categories": ["Biryani", "Vegetarian"],
+      "quantity": "Full"
     },
     {
       "id": 87,
@@ -868,7 +912,7 @@
       "reviews": 1800,
       "price": 140,
       "description": "Chicken biryani.",
-      "categories": ["Biryani"]
+      "categories": ["Biryani", "Non-Vegetarian"]
     },
     {
       "id": 88,
@@ -876,9 +920,10 @@
       "image": "https://media.istockphoto.com/id/155369528/photo/tandoori-chicken.jpg?s=2048x2048&w=is&k=20&c=O2F6bNbyBEKWtSU8rzhbxBeMIFqPht_cbBX7urkg1bI=",
       "rating": 4.7,
       "reviews": 1800,
-      "price": 200,
+      "price": 400,
       "description": "Spicy grilled chicken marinated in yogurt and spices.",
-      "categories": ["Tandoori & Kababs"]
+      "categories": ["Tandoori Snacks", "Non-Vegetarian"],
+      "quantity": "12PC"
     },
     {
       "id": 89,
@@ -886,49 +931,21 @@
       "image": "https://media.istockphoto.com/id/519492241/photo/delhi-biryani-7.jpg?s=2048x2048&w=is&k=20&c=pr6dIj8BuRzTnPjxdU5l7MRxNl9ltsjqFyq0kDUe_lI=",
       "rating": 4.7,
       "reviews": 1800,
-      "price": 230,
+      "price": 250,
       "description": "Chicken marinated in Afghani spices.",
-      "categories": ["Tandoori & Kababs"]
+      "categories": ["Tandoori Snacks", "Non-Vegetarian"],
+      "quantity": "6PC"
     },
     {
-      "id": 90,
-      "name": "Chicken Tikka",
-      "image": "https://media.istockphoto.com/id/2043767125/photo/lemon-being-squeezed-over-shrimp-tandoori.jpg?s=2048x2048&w=is&k=20&c=un2XOqcoOgjJG8alyP3SAhXfww2nZNLsxCwSPg68JIk=",
+      "id": 200,
+      "name": "Afghani Chicken",
+      "image": "https://media.istockphoto.com/id/519492241/photo/delhi-biryani-7.jpg?s=2048x2048&w=is&k=20&c=pr6dIj8BuRzTnPjxdU5l7MRxNl9ltsjqFyq0kDUe_lI=",
       "rating": 4.7,
       "reviews": 1800,
-      "price": 220,
-      "description": "Chicken tikka marinated in spices.",
-      "categories": ["Tandoori & Kababs"]
-    },
-    {
-      "id": 91,
-      "name": "Chicken Malai Tikka",
-      "image": "https://media.istockphoto.com/id/1160832065/photo/extreme-close-up-chicken-tikka.jpg?s=2048x2048&w=is&k=20&c=WrE7nJIxYf8srxrwVoTi4spglNEwc7gwgpxToek1blU=",
-      "rating": 4.7,
-      "reviews": 1800,
-      "price": 230,
-      "description": "Chicken tikka marinated in creamy spices.",
-      "categories": ["Tandoori & Kababs"]
-    },
-    {
-      "id": 92,
-      "name": "Chicken Seekh Kabab",
-      "image": "https://media.istockphoto.com/id/1398259474/photo/chicken-seekh-kebab.jpg?s=2048x2048&w=is&k=20&c=97YWeSxCySCkpCU0wFqJ_H_yKa3A_DmJx8i3AT51Dh4=",
-      "rating": 4.7,
-      "reviews": 1800,
-      "price": 150,
-      "description": "Chicken seekh kabab.",
-      "categories": ["Tandoori & Kababs"]
-    },
-    {
-      "id": 93,
-      "name": "Paneer Tikka",
-      "image": "https://media.istockphoto.com/id/629341696/photo/chilli-paneer-tikka-or-paneer-kabab.jpg?s=2048x2048&w=is&k=20&c=lw1BmlVZY5__pNE3R_bv3IGIjBazXh1WTPFpF270WWk=",
-      "rating": 4.7,
-      "reviews": 1800,
-      "price": 200,
-      "description": "Paneer tikka marinated in spices.",
-      "categories": ["Tandoori & Kababs"]
+      "price": 480,
+      "description": "Chicken marinated in Afghani spices.",
+      "categories": ["Tandoori Snacks", "Non-Vegetarian"],
+      "quantity": "12PC"
     },
     {
       "id": 94,
@@ -938,7 +955,7 @@
       "reviews": 1800,
       "price": 220,
       "description": "Paneer tikka marinated in Afghani spices.",
-      "categories": ["Tandoori & Kababs"]
+      "categories": ["Tandoori Snacks", "Vegetarian"]
     },
     {
       "id": 95,
@@ -948,7 +965,7 @@
       "reviews": 1800,
       "price": 200,
       "description": "Paneer tikka marinated in achar spices.",
-      "categories": ["Tandoori & Kababs"]
+      "categories": ["Tandoori Snacks", "Vegetarian"]
     },
     {
       "id": 96,
@@ -958,37 +975,977 @@
       "reviews": 1800,
       "price": 120,
       "description": "Vegetable seekh kabab.",
-      "categories": ["Tandoori & Kababs"]
+      "categories": ["Tandoori Snacks", "Vegetarian"]
     },
     {
-      "id": 97,
-      "name": "Veg Thali",
-      "image": "https://media.istockphoto.com/id/1158623408/photo/indian-hindu-veg-thali-food-platter-selective-focus.jpg?s=2048x2048&w=is&k=20&c=8TokrDFU7l0NCqcEng6hHp6EqYn1dcwyH7uc9tbIN3U=",
+      "id": 101,
+      "name": "Chicken Seekh Kabab",
+      "image": "https://example.com/chicken-seekh-kebab.jpg",
       "rating": 4.7,
       "reviews": 1800,
-      "price": 80,
-      "description": "A complete meal with various vegetarian dishes.",
-      "categories": ["Thali"]
+      "price": 150,
+      "description": "Chicken seekh kabab.",
+      "categories": ["Tandoori Snacks", "Non-Vegetarian"],
+      "quantity": "6PC"
     },
     {
-      "id": 98,
-      "name": "Egg Thali",
-      "image": "https://media.istockphoto.com/id/527653853/photo/traditional-india-food.jpg?s=2048x2048&w=is&k=20&c=AhFSLThSoyFTjtYwUUsbNKNCjcpr1CIWJL-FsWWHspo=",
+      "id": 102,
+      "name": "Chicken Seekh Kabab",
+      "image": "https://example.com/chicken-seekh-kebab.jpg",
       "rating": 4.7,
       "reviews": 1800,
-      "price": 90,
-      "description": "A complete meal with egg curry and other dishes.",
-      "categories": ["Thali"]
+      "price": 280,
+      "description": "Chicken seekh kabab.",
+      "categories": ["Tandoori Snacks", "Non-Vegetarian"],
+      "quantity": "12PC"
     },
     {
-      "id": 99,
-      "name": "Chicken Thali",
-      "image": "https://media.istockphoto.com/id/1173948697/photo/indian-thali.jpg?s=2048x2048&w=is&k=20&c=pwwUijCNwDXASaz6Q5eI69eQBO4aphJ2x1mE34F7Tw0=",
+      "id": 103,
+      "name": "Paneer Tikka",
+      "image": "https://example.com/paneer-tikka.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 240,
+      "description": "Paneer tikka marinated in spices.",
+      "categories": ["Tandoori Snacks", "Vegetarian"],
+      "quantity": "4PC"
+    },
+    {
+      "id": 104,
+      "name": "Paneer Tikka",
+      "image": "https://example.com/paneer-tikka.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 460,
+      "description": "Paneer tikka marinated in spices.",
+      "categories": ["Tandoori Snacks", "Vegetarian"],
+      "quantity": "8PC"
+    },
+    {
+      "id": 105,
+      "name": "Mushroom Tikka",
+      "image": "https://example.com/mushroom-tikka.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 200,
+      "description": "Mushroom tikka marinated in spices.",
+      "categories": ["Tandoori Snacks", "Vegetarian"],
+      "quantity": "Half"
+    },
+    {
+      "id": 106,
+      "name": "Mushroom Tikka",
+      "image": "https://example.com/mushroom-tikka.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 300,
+      "description": "Mushroom tikka marinated in spices.",
+      "categories": ["Tandoori Snacks", "Vegetarian"],
+      "quantity": "Full"
+    },
+    {
+      "id": 107,
+      "name": "Chicken Malai Tikka",
+      "image": "https://example.com/chicken-malai-tikka.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 250,
+      "description": "Chicken tikka marinated in creamy spices.",
+      "categories": ["Tandoori Snacks", "Non-Vegetarian"],
+      "quantity": "6PC"
+    },
+    {
+      "id": 108,
+      "name": "Chicken Malai Tikka",
+      "image": "https://example.com/chicken-malai-tikka.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 500,
+      "description": "Chicken tikka marinated in creamy spices.",
+      "categories": ["Tandoori Snacks", "Non-Vegetarian"],
+      "quantity": "12PC"
+    },
+    {
+      "id": 109,
+      "name": "Chicken Tikka",
+      "image": "https://example.com/chicken-tikka.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 240,
+      "description": "Chicken tikka marinated in spices.",
+      "categories": ["Tandoori Snacks", "Non-Vegetarian"],
+      "quantity": "8PC"
+    },
+    {
+      "id": 110,
+      "name": "Chicken Tikka",
+      "image": "https://example.com/chicken-tikka.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 480,
+      "description": "Chicken tikka marinated in spices.",
+      "categories": ["Tandoori Snacks", "Non-Vegetarian"],
+      "quantity": "16PC"
+    },
+    {
+      "id": 111,
+      "name": "Paneer Tikka Achari",
+      "image": "https://example.com/paneer-tikka-achari.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 250,
+      "description": "Paneer tikka marinated in achar spices.",
+      "categories": ["Tandoori Snacks", "Vegetarian"],
+      "quantity": "4PC"
+    },
+    {
+      "id": 112,
+      "name": "Paneer Tikka Achari",
+      "image": "https://example.com/paneer-tikka-achari.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 480,
+      "description": "Paneer tikka marinated in achar spices.",
+      "categories": ["Tandoori Snacks", "Vegetarian"],
+      "quantity": "8PC"
+    },
+    {
+      "id": 113,
+      "name": "Tandoori Chaap",
+      "image": "https://example.com/tandoori-chaap.jpg",
       "rating": 4.7,
       "reviews": 1800,
       "price": 120,
-      "description": "A complete meal with chicken curry and other dishes.",
-      "categories": ["Thali"]
+      "description": "Tandoori chaap marinated in spices.",
+      "categories": ["Tandoori Snacks", "Vegetarian"],
+      "quantity": "Half"
+    },
+    {
+      "id": 114,
+      "name": "Tandoori Chaap",
+      "image": "https://example.com/tandoori-chaap.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 220,
+      "description": "Tandoori chaap marinated in spices.",
+      "categories": ["Tandoori Snacks", "Vegetarian"],
+      "quantity": "Full"
+    },
+    {
+      "id": 115,
+      "name": "Irani Chaap",
+      "image": "https://example.com/irani-chaap.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 120,
+      "description": "Irani chaap marinated in spices.",
+      "categories": ["Tandoori Snacks", "Vegetarian"],
+      "quantity": "Half"
+    },
+    {
+      "id": 116,
+      "name": "Irani Chaap",
+      "image": "https://example.com/irani-chaap.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 220,
+      "description": "Irani chaap marinated in spices.",
+      "categories": ["Tandoori Snacks", "Vegetarian"],
+      "quantity": "Full"
+    },
+    {
+      "id": 117,
+      "name": "Pudina Chaap",
+      "image": "https://example.com/pudina-chaap.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 120,
+      "description": "Pudina chaap marinated in spices.",
+      "categories": ["Tandoori Snacks", "Vegetarian"],
+      "quantity": "Half"
+    },
+    {
+      "id": 118,
+      "name": "Pudina Chaap",
+      "image": "https://example.com/pudina-chaap.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 220,
+      "description": "Pudina chaap marinated in spices.",
+      "categories": ["Tandoori Snacks", "Vegetarian"],
+      "quantity": "Full"
+    },
+    {
+      "id": 119,
+      "name": "Afghani Chaap",
+      "image": "https://example.com/afghani-chaap.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 140,
+      "description": "Afghani chaap marinated in spices.",
+      "categories": ["Tandoori Snacks", "Vegetarian"],
+      "quantity": "Half"
+    },
+    {
+      "id": 120,
+      "name": "Afghani Chaap",
+      "image": "https://example.com/afghani-chaap.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 260,
+      "description": "Afghani chaap marinated in spices.",
+      "categories": ["Tandoori Snacks", "Vegetarian"],
+      "quantity": "Full"
+    },
+    {
+      "id": 121,
+      "name": "Achari Chaap",
+      "image": "https://example.com/achari-chaap.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 130,
+      "description": "Achari chaap marinated in spices.",
+      "categories": ["Tandoori Snacks", "Vegetarian"],
+      "quantity": "Half"
+    },
+    {
+      "id": 122,
+      "name": "Achari Chaap",
+      "image": "https://example.com/achari-chaap.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 250,
+      "description": "Achari chaap marinated in spices.",
+      "categories": ["Tandoori Snacks", "Vegetarian"],
+      "quantity": "Full"
+    },
+    {
+      "id": 123,
+      "name": "Fish Tikka",
+      "image": "https://example.com/fish-tikka.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 250,
+      "description": "Fish tikka marinated in spices.",
+      "categories": ["Tandoori Snacks", "Non-Vegetarian"],
+      "quantity": "Half"
+    },
+    {
+      "id": 124,
+      "name": "Fish Tikka",
+      "image": "https://example.com/fish-tikka.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 500,
+      "description": "Fish tikka marinated in spices.",
+      "categories": ["Tandoori Snacks", "Non-Vegetarian"],
+      "quantity": "Full"
+    },
+    {
+      "id": 125,
+      "name": "Chicken Dum Biryani",
+      "image": "https://example.com/chicken-dum-biryani.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 110,
+      "description": "Aromatic chicken dum biryani.",
+      "categories": ["Biryani", "Non-Vegetarian"],
+      "quantity": "Half"
+    },
+    {
+      "id": 126,
+      "name": "Chicken Dum Biryani",
+      "image": "https://example.com/chicken-dum-biryani.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 150,
+      "description": "Aromatic chicken dum biryani.",
+      "categories": ["Biryani", "Non-Vegetarian"],
+      "quantity": "Full"
+    },
+    {
+      "id": 127,
+      "name": "Roasted Chicken Biryani",
+      "image": "https://example.com/roasted-chicken-biryani.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 130,
+      "description": "Roasted chicken biryani.",
+      "categories": ["Biryani", "Non-Vegetarian"],
+      "quantity": "Half"
+    },
+    {
+      "id": 128,
+      "name": "Roasted Chicken Biryani",
+      "image": "https://example.com/roasted-chicken-biryani.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 180,
+      "description": "Roasted chicken biryani.",
+      "categories": ["Biryani", "Non-Vegetarian"],
+      "quantity": "Full"
+    },
+    {
+      "id": 129,
+      "name": "Mashroom Tikka",
+      "image": "https://example.com/roasted-chicken-biryani.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 200,
+      "description": "Roasted chicken biryani.",
+      "categories": ["Biryani", "Non-Vegetarian"],
+      "quantity": "Half"
+    },
+    {
+      "id": 130,
+      "name": "Mashroom Tikka",
+      "image": "https://example.com/roasted-chicken-biryani.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 300,
+      "description": "Roasted chicken biryani.",
+      "categories": ["Biryani", "Non-Vegetarian"],
+      "quantity": "Full"
+    },
+    {
+      "id": 131,
+      "name": "Fry Chicken Biryani",
+      "image": "https://example.com/roasted-chicken-biryani.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 120,
+      "description": "Fry Chicken Biryani.",
+      "categories": ["Biryani", "Non-Vegetarian"],
+      "quantity": "Full"
+    },
+    {
+      "id": 132,
+      "name": "Fry Chicken Biryani",
+      "image": "https://example.com/roasted-chicken-biryani.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 180,
+      "description": "Fry Chicken Biryani.",
+      "categories": ["Biryani", "Non-Vegetarian"],
+      "quantity": "Full"
+    },
+    {
+      "id": 133,
+      "name": "Egg Biryani",
+      "image": "https://example.com/roasted-chicken-biryani.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 90,
+      "description": "Egg Biryani.",
+      "categories": ["Biryani", "Non-Vegetarian"],
+      "quantity": "Full"
+    },
+    {
+      "id": 134,
+      "name": "Egg Biryani",
+      "image": "https://example.com/roasted-chicken-biryani.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 130,
+      "description": "Egg Biryani.",
+      "categories": ["Biryani", "Non-Vegetarian"],
+      "quantity": "Full"
+    },
+    {
+      "id": 135,
+      "name": "Garlic Chicken",
+      "image": "https://example.com/garlic-chicken.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 250,
+      "description": "Garlic chicken marinated in spices.",
+      "categories": ["Chinese Snacks", "Non-Vegetarian"],
+      "quantity": "10PC"
+    },
+    {
+      "id": 136,
+      "name": "Crispy Chicken",
+      "image": "https://example.com/crispy-chicken.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 250,
+      "description": "Crispy chicken marinated in spices.",
+      "categories": ["Chinese Snacks", "Non-Vegetarian"],
+      "quantity": "10PC"
+    },
+    {
+      "id": 138,
+      "name": "Honey Lemon Chicken",
+      "image": "https://example.com/honey-lemon-chicken.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 300,
+      "description": "Honey lemon chicken marinated in spices.",
+      "categories": ["Chinese Snacks", "Non-Vegetarian"],
+      "quantity": "10PC"
+    },
+    {
+      "id": 139,
+      "name": "Chicken Shami Kabab",
+      "image": "https://example.com/chicken-shami-kebab.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 300,
+      "description": "Chicken shami kabab marinated in spices.",
+      "categories": ["Chinese Snacks", "Non-Vegetarian"],
+      "quantity": "12PC"
+    },
+    {
+      "id": 140,
+      "name": "Chilli Paneer",
+      "image": "https://example.com/chilli-paneer.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 150,
+      "description": "Spicy chilli paneer.",
+      "categories": ["Chinese Snacks", "Vegetarian"],
+      "quantity": "8PC"
+    },
+    {
+      "id": 141,
+      "name": "Chilli Paneer",
+      "image": "https://example.com/chilli-paneer.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 250,
+      "description": "Spicy chilli paneer.",
+      "categories": ["Chinese Snacks", "Vegetarian"],
+      "quantity": "12PC"
+    },
+    {
+      "id": 142,
+      "name": "Chilli Mushroom",
+      "image": "https://example.com/chilli-mushroom.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 150,
+      "description": "Spicy chilli mushroom.",
+      "categories": ["Chinese Snacks", "Vegetarian"],
+      "quantity": "8PC"
+    },
+    {
+      "id": 143,
+      "name": "Chilli Mushroom",
+      "image": "https://example.com/chilli-mushroom.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 250,
+      "description": "Spicy chilli mushroom.",
+      "categories": ["Chinese Snacks", "Vegetarian"],
+      "quantity": "12PC"
+    },
+    {
+      "id": 144,
+      "name": "Chicken Manchurian",
+      "image": "https://example.com/chicken-manchurian.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 250,
+      "description": "Chicken manchurian.",
+      "categories": ["Chinese Snacks", "Non-Vegetarian"],
+      "quantity": "8PC"
+    },
+    {
+      "id": 145,
+      "name": "Chicken Manchurian",
+      "image": "https://example.com/chicken-manchurian.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 480,
+      "description": "Chicken manchurian.",
+      "categories": ["Chinese Snacks", "Non-Vegetarian"],
+      "quantity": "12PC"
+    },
+    {
+      "id": 146,
+      "name": "Veg Manchurian",
+      "image": "https://example.com/veg-manchurian.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 140,
+      "description": "Vegetable manchurian.",
+      "categories": ["Chinese Snacks", "Vegetarian"],
+      "quantity": "8PC"
+    },
+    {
+      "id": 147,
+      "name": "Veg Manchurian",
+      "image": "https://example.com/veg-manchurian.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 240,
+      "description": "Vegetable manchurian.",
+      "categories": ["Chinese Snacks", "Vegetarian"],
+      "quantity": "12PC"
+    },
+    {
+      "id": 148,
+      "name": "Veg Noodles",
+      "image": "https://example.com/veg-noodles.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 80,
+      "description": "Veg noodles.",
+      "categories": ["Chinese Snacks", "Vegetarian"]
+    },
+    {
+      "id": 149,
+      "name": "Veg Hakka Noodles",
+      "image": "https://example.com/veg-hakka-noodles.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 90,
+      "description": "Veg hakka noodles.",
+      "categories": ["Chinese Snacks", "Vegetarian"]
+    },
+    {
+      "id": 150,
+      "name": "Singapuri Noodles",
+      "image": "https://example.com/singapuri-noodles.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 100,
+      "description": "Singapuri noodles.",
+      "categories": ["Chinese Snacks", "Vegetarian"]
+    },
+    {
+      "id": 151,
+      "name": "Paneer Noodles",
+      "image": "https://example.com/paneer-noodles.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 110,
+      "description": "Paneer noodles.",
+      "categories": ["Chinese Snacks", "Vegetarian"]
+    },
+    {
+      "id": 152,
+      "name": "Egg Noodles",
+      "image": "https://example.com/egg-noodles.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 100,
+      "description": "Egg noodles.",
+      "categories": ["Chinese Snacks", "Non-Vegetarian"]
+    },
+    {
+      "id": 153,
+      "name": "Chicken Noodles",
+      "image": "https://example.com/chicken-noodles.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 120,
+      "description": "Chicken noodles.",
+      "categories": ["Chinese Snacks", "Non-Vegetarian"]
+    },
+    {
+      "id": 154,
+      "name": "Chilli Garlic Noodles",
+      "image": "https://example.com/chilli-garlic-noodles.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 120,
+      "description": "Chilli garlic noodles.",
+      "categories": ["Chinese Snacks", "Vegetarian"]
+    },
+    {
+      "id": 155,
+      "name": "Chicken Hakka Noodles",
+      "image": "https://example.com/chicken-hakka-noodles.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 130,
+      "description": "Chicken hakka noodles.",
+      "categories": ["Chinese Snacks", "Non-Vegetarian"]
+    },
+    {
+      "id": 156,
+      "name": "Crispy Veg",
+      "image": "https://example.com/crispy-veg.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 150,
+      "description": "Crispy veg.",
+      "categories": ["Chinese Snacks", "Vegetarian"],
+      "quantity": "10PC"
+    },
+    {
+      "id": 157,
+      "name": "Paneer Pakora",
+      "image": "https://example.com/paneer-pakora.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 150,
+      "description": "Paneer pakora.",
+      "categories": ["Chinese Snacks", "Vegetarian"],
+      "quantity": "10PC"
+    },
+    {
+      "id": 158,
+      "name": "Veg Pakora",
+      "image": "https://example.com/veg-pakora.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 130,
+      "description": "Veg pakora.",
+      "categories": ["Chinese Snacks", "Vegetarian"]
+    },
+    {
+      "id": 159,
+      "name": "Chicken Pakora",
+      "image": "https://example.com/chicken-pakora.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 150,
+      "description": "Chicken pakora.",
+      "categories": ["Chinese Snacks", "Non-Vegetarian"],
+      "quantity": "10PC"
+    },
+    {
+      "id": 160,
+      "name": "Fry Chicken",
+      "image": "https://example.com/fry-chicken.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 130,
+      "description": "Fry chicken.",
+      "categories": ["Chinese Snacks", "Non-Vegetarian"]
+    },
+    {
+      "id": 161,
+      "name": "Chicken Lollipop",
+      "image": "https://example.com/chicken-lollipop.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 250,
+      "description": "Chicken lollipop.",
+      "categories": ["Chinese Snacks", "Non-Vegetarian"],
+      "quantity": "6PC"
+    },
+    {
+      "id": 162,
+      "name": "Honey Chilli Potato",
+      "image": "https://example.com/honey-chilli-potato.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 140,
+      "description": "Honey chilli potato.",
+      "categories": ["Chinese Snacks", "Vegetarian"]
+    },
+    {
+      "id": 163,
+      "name": "Chilli Potato",
+      "image": "https://example.com/chilli-potato.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 130,
+      "description": "Chilli potato.",
+      "categories": ["Chinese Snacks", "Vegetarian"]
+    },
+    {
+      "id": 164,
+      "name": "French Fry",
+      "image": "https://example.com/french-fry.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 120,
+      "description": "French fry.",
+      "categories": ["Chinese Snacks", "Vegetarian"]
+    },
+    {
+      "id": 165,
+      "name": "Crispy Corn",
+      "image": "https://example.com/crispy-corn.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 120,
+      "description": "Crispy corn.",
+      "categories": ["Chinese Snacks", "Vegetarian"]
+    },
+    {
+      "id": 201,
+      "name": "Garlic Chicken",
+      "image": "https://example.com/garlic-chicken.jpg",
+      "rating": 4.7,
+      "reviews": 1200,
+      "price": 250,
+      "description": "Crispy chicken with garlic sauce.",
+      "categories": ["Chinese Snacks", "Non-Vegetarian"],
+      "quantity": "10PC"
+    },
+    {
+      "id": 202,
+      "name": "Crispy Chicken",
+      "image": "https://example.com/crispy-chicken.jpg",
+      "rating": 4.6,
+      "reviews": 1100,
+      "price": 250,
+      "description": "Deep-fried crispy chicken with seasoning.",
+      "categories": ["Chinese Snacks", "Non-Vegetarian"],
+      "quantity": "10PC"
+    },
+    {
+      "id": 203,
+      "name": "Chilli Chicken",
+      "image": "https://example.com/chilli-chicken.jpg",
+      "rating": 4.8,
+      "reviews": 1500,
+      "price": 250,
+      "description": "Spicy stir-fried chicken with chilies and sauce.",
+      "categories": ["Chinese Snacks", "Non-Vegetarian"],
+      "quantity": "10PC"
+    },
+    {
+      "id": 204,
+      "name": "Honey Lemon Chicken",
+      "image": "https://example.com/honey-lemon-chicken.jpg",
+      "rating": 4.7,
+      "reviews": 1300,
+      "price": 300,
+      "description": "Sweet and tangy honey lemon-flavored chicken.",
+      "categories": ["Chinese Snacks", "Non-Vegetarian"],
+      "quantity": "10PC"
+    },
+    {
+      "id": 205,
+      "name": "Chicken Shami Kebab",
+      "image": "https://example.com/chicken-shami-kebab.jpg",
+      "rating": 4.5,
+      "reviews": 1400,
+      "price": 300,
+      "description": "Minced chicken patties with aromatic spices.",
+      "categories": ["Chinese Snacks", "Non-Vegetarian"],
+      "quantity": "10PC"
+    },
+    {
+      "id": 206,
+      "name": "Chilli Paneer",
+      "image": "https://example.com/chilli-paneer.jpg",
+      "rating": 4.6,
+      "reviews": 1600,
+      "price": 150,
+      "description": "Spicy and tangy paneer cubes stir-fried with sauces.",
+      "categories": ["Chinese Snacks", "Vegetarian"],
+      "quantity": "8PC"
+    },
+    {
+      "id": 207,
+      "name": "Chilli Paneer",
+      "image": "https://example.com/chilli-paneer.jpg",
+      "rating": 4.6,
+      "reviews": 1600,
+      "price": 250,
+      "description": "Spicy and tangy paneer cubes stir-fried with sauces.",
+      "categories": ["Chinese Snacks", "Vegetarian"],
+      "quantity": "12PC"
+    },
+    {
+      "id": 208,
+      "name": "Veg Noodles",
+      "image": "https://example.com/veg-noodles.jpg",
+      "rating": 4.4,
+      "reviews": 1200,
+      "price": 80,
+      "description": "Classic stir-fried noodles with vegetables.",
+      "categories": ["Chinese Snacks", "Vegetarian"],
+      "quantity": "Regular"
+    },
+    {
+      "id": 209,
+      "name": "Chicken Noodles",
+      "image": "https://example.com/chicken-noodles.jpg",
+      "rating": 4.6,
+      "reviews": 1300,
+      "price": 120,
+      "description": "Stir-fried noodles with chicken and veggies.",
+      "categories": ["Chinese Snacks", "Non-Vegetarian"],
+      "quantity": "Regular"
+    },
+    {
+      "id": 210,
+      "name": "Honey Chilli Potato",
+      "image": "https://example.com/honey-chilli-potato.jpg",
+      "rating": 4.5,
+      "reviews": 1400,
+      "price": 140,
+      "description": "Crispy potatoes tossed in honey and chili sauce.",
+      "categories": ["Chinese Snacks", "Vegetarian"],
+      "quantity": "Regular"
+    },
+    {
+      "id": 211,
+      "name": "Veg Clear Soup",
+      "image": "https://example.com/veg-clear-soup.jpg",
+      "rating": 4.5,
+      "reviews": 1200,
+      "price": 60,
+      "description": "Light and clear vegetable soup.",
+      "categories": ["Soup", "Vegetarian"]
+    },
+    {
+      "id": 212,
+      "name": "Veg Hot & Sour Soup",
+      "image": "https://example.com/veg-hot-sour-soup.jpg",
+      "rating": 4.6,
+      "reviews": 1300,
+      "price": 80,
+      "description": "Spicy and tangy vegetable soup.",
+      "categories": ["Soup", "Vegetarian"]
+    },
+    {
+      "id": 213,
+      "name": "Veg Manchow Soup",
+      "image": "https://example.com/veg-manchow-soup.jpg",
+      "rating": 4.6,
+      "reviews": 1400,
+      "price": 80,
+      "description": "Spicy vegetable soup with crispy noodles.",
+      "categories": ["Soup", "Vegetarian"]
+    },
+    {
+      "id": 214,
+      "name": "Sweet Corn Soup",
+      "image": "https://example.com/sweet-corn-soup.jpg",
+      "rating": 4.7,
+      "reviews": 1500,
+      "price": 90,
+      "description": "Sweet corn soup with vegetables.",
+      "categories": ["Soup", "Vegetarian"]
+    },
+    {
+      "id": 215,
+      "name": "Paneer Corn Soup",
+      "image": "https://example.com/paneer-corn-soup.jpg",
+      "rating": 4.7,
+      "reviews": 1600,
+      "price": 100,
+      "description": "Sweet corn soup with paneer.",
+      "categories": ["Soup", "Vegetarian"]
+    },
+    {
+      "id": 216,
+      "name": "Tomato Soup",
+      "image": "https://example.com/tomato-soup.jpg",
+      "rating": 4.6,
+      "reviews": 1400,
+      "price": 90,
+      "description": "Classic tomato soup.",
+      "categories": ["Soup", "Vegetarian"]
+    },
+    {
+      "id": 217,
+      "name": "Tomato Cream Soup",
+      "image": "https://example.com/tomato-cream-soup.jpg",
+      "rating": 4.7,
+      "reviews": 1500,
+      "price": 100,
+      "description": "Creamy tomato soup.",
+      "categories": ["Soup", "Vegetarian"]
+    },
+    {
+      "id": 218,
+      "name": "Chicken Clear Soup",
+      "image": "https://example.com/chicken-clear-soup.jpg",
+      "rating": 4.7,
+      "reviews": 1600,
+      "price": 100,
+      "description": "Light and clear chicken soup.",
+      "categories": ["Soup", "Non-Vegetarian"]
+    },
+    {
+      "id": 219,
+      "name": "Chicken Manchow Soup",
+      "image": "https://example.com/chicken-manchow-soup.jpg",
+      "rating": 4.8,
+      "reviews": 1700,
+      "price": 130,
+      "description": "Spicy chicken soup with crispy noodles.",
+      "categories": ["Soup", "Non-Vegetarian"]
+    },
+    {
+      "id": 220,
+      "name": "Chicken Hot & Sour Soup",
+      "image": "https://example.com/chicken-hot-sour-soup.jpg",
+      "rating": 4.8,
+      "reviews": 1800,
+      "price": 130,
+      "description": "Spicy and tangy chicken soup.",
+      "categories": ["Soup", "Non-Vegetarian"]
+    },
+    {
+      "id": 221,
+      "name": "Chicken Sweet Corn Soup",
+      "image": "https://example.com/chicken-sweet-corn-soup.jpg",
+      "rating": 4.8,
+      "reviews": 1900,
+      "price": 130,
+      "description": "Sweet corn soup with chicken.",
+      "categories": ["Soup", "Non-Vegetarian"]
+    },
+    {
+      "id": 222,
+      "name": "Butter Chicken Pulao",
+      "image": "https://example.com/butter-chicken-pulao.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 150,
+      "description": "Aromatic pulao with butter chicken.",
+      "categories": ["Non-Veg Combo", "Chicken Dishes"]
+    },
+    {
+      "id": 223,
+      "name": "Mutton Korma",
+      "image": "https://example.com/mutton-korma.jpg",
+      "rating": 4.8,
+      "reviews": 1900,
+      "price": 180,
+      "description": "Tender mutton cooked in a rich korma sauce.",
+      "categories": ["Non-Veg Combo", "Non-Vegetarian"]
+    },
+    {
+      "id": 224,
+      "name": "Fish Tikka Masala",
+      "image": "https://example.com/fish-tikka-masala.jpg",
+      "rating": 4.7,
+      "reviews": 1700,
+      "price": 160,
+      "description": "Grilled fish in a creamy, spiced sauce.",
+      "categories": ["Non-Veg Combo", "Non-Vegetarian"]
+    },
+    {
+      "id": 225,
+      "name": "Prawn Biryani",
+      "image": "https://example.com/prawn-biryani.jpg",
+      "rating": 4.8,
+      "reviews": 2000,
+      "price": 190,
+      "description": "Flavorful biryani with juicy prawns.",
+      "categories": ["Non-Veg Combo", "Non-Vegetarian"]
+    },
+    {
+      "id": 226,
+      "name": "Matar Paneer Pulao",
+      "image": "https://example.com/matar-paneer-pulao.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 120,
+      "description": "Aromatic pulao with matar paneer.",
+      "categories": ["Veg Combo", "Vegetarian"]
+    },
+    {
+      "id": 227,
+      "name": "Paneer Do Pyaza Pulao",
+      "image": "https://example.com/paneer-do-pyaza-pulao.jpg",
+      "rating": 4.7,
+      "reviews": 1800,
+      "price": 120,
+      "description": "Aromatic pulao with paneer do pyaza.",
+      "categories": ["Veg Combo", "Vegetarian"]
     }
   ]
 }

@@ -50,6 +50,11 @@ function DishesCard({ dish }) {
       </div>
       <div className='text-center mt-5 md:mt-8 lg:mt-10'>
         <div className='text-lg md:text-xl lg:text-2xl poppins-medium'>{dish?.name}</div>
+        <div className='flex justify-center items-center'>
+          {dish.quantity && 
+          <div className='bg-red-200 px-3 py-1 rounded-md border border-red-400 poppins-regular'>{dish?.quantity}</div>
+          }
+        </div>
         <div className='mt-2 md:mt-3 lg:mt-4 poppins-regular text-stone-500 text-xs md:text-sm lg:text-base'>{dish?.description}</div>
         <div className='flex justify-between items-center mt-3 md:mt-4 lg:mt-5 poppins-medium'>
           <div className='text-xl md:text-2xl lg:text-3xl'>₹{dish?.price}</div>

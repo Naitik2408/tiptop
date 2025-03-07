@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useSelector } from 'react-redux';
 import DishesCard from '../compomnets/Home/PopularDishes/DishesCard';
-import data from '../data.json';
+import data from '../data2.json';
 
 function Menu() {
   const [selectedCategory, setSelectedCategory] = useState('All');
@@ -28,9 +28,7 @@ function Menu() {
   }, [searchQuery]);
 
   const categories = [
-    'All', 'Beverages', 'Desserts', 'Breads', 'Rice & Pulav', 'Sandwiches', 'Paneer Dishes',
-    'Vegetarian Curries', 'Chicken Dishes', 'Shakes & Cold Drinks', 'Chinese', 'Biryani',
-    'Tandoori & Kababs', 'Thali'
+    'All', 'Tandoori Snacks', 'Non-Vegetarian', 'Vegetarian', 'Biryani', 'Rice Dishes', 'Chinese Snacks', 'Shakes', 'Cold Drinks', 'Soup', 'Thali', 'Main Course Veg', 'Main Course Non-Veg', 'Raita', 'Egg Dishes', 'Breads', 'Chaap Gravy Items', 'Veg Combo', 'Non-Veg Combo', 'Paneer Dishes', 'Vegetarian Curries'
   ];
 
   const filteredDishes = data.dishes.filter(dish => {
