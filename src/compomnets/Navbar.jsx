@@ -10,6 +10,7 @@ import logo from '../assets/logo.png'
 function Navbar() {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [address, setAddress] = useState('');
+    const [name, setName] = useState('');
     const addedDishes = useSelector((state) => state.dishes.dishes);
 
     useEffect(() => {
@@ -32,8 +33,8 @@ function Navbar() {
     const totalItems = addedDishes.reduce((total, dish) => total + dish.quantity, 0);
 
     const handleConfirmOrder = () => {
-        if (!address) {
-            toast.error('Delivery address is required');
+        if (!address || !name) {
+            toast.error('Both name and delivery address are required');
             return;
         }
 
@@ -41,7 +42,7 @@ function Navbar() {
             return `${index + 1}️⃣ ${dish.name} - ${dish.quantity} ${dish.quantity > 1 ? 'Pieces' : 'Piece'}`;
         }).join('\n');
 
-        const message = `Hello, I’d like to place an order:\n\n🛒 Order Details:\n${orderDetails}\n\n💰 Total Amount: ₹${totalAmount.toFixed(2)}\n\n📍 Delivery Address: ${address}`;
+        const message = `Hello, I’d like to place an order:\n\n🛒 Order Details:\n${orderDetails}\n\n💰 Total Amount: ₹${totalAmount.toFixed(2)}\n\n📍 Delivery Address: ${address}\n👤 Name: ${name}\n\nHelpline No: +91 9060557296`;
 
         const whatsappUrl = `https://wa.me/9060557296?text=${encodeURIComponent(message)}`;
         window.open(whatsappUrl, '_blank');
@@ -50,10 +51,6 @@ function Navbar() {
     return (
         <div className='flex justify-between px-4 md:px-10 lg:px-20 py-4 md:py-6 lg:py-10 md:grid grid-cols-2 md:grid-cols-3 bg-stone-50'>
             <Link to={'/'} className='flex gap-2 md:gap-3 items-center sigmar-regular'>
-                {/* <div className='p-2 md:p-3 rounded-full bg-red-400 w-fit text-white'>
-                    <GiChickenOven size={30} md:size={40} lg:size={50} />
-                </div>
-                <div className='text-xl md:text-2xl lg:text-3xl text-red-400'>The TipTop</div> */}
                 <img src={logo} alt="logo" className='w-40' />
             </Link>
             <div className='hidden md:block'></div>
@@ -76,6 +73,18 @@ function Navbar() {
                         <div className='flex justify-between mt-4'>
                             <div className='text-lg font-semibold'>Total</div>
                             <div className='text-lg font-semibold'>₹{totalAmount.toFixed(2)}</div>
+                        </div>
+                        <div className='mt-8'>
+                            <label htmlFor="name" className='block font-medium text-gray-700 poppins-regular'>Name</label>
+                            <input 
+                                type="text" 
+                                id="name" 
+                                name="name" 
+                                value={name} 
+                                onChange={(e) => setName(e.target.value)} 
+                                className='mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm outline-stone-600 outline-1'
+                                placeholder="Enter your name"
+                            />
                         </div>
                         <div className='mt-8'>
                             <label htmlFor="address" className='block font-medium text-gray-700 poppins-regular'>Delivery Address</label>
